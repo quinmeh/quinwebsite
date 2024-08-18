@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://kit.fontawesome.com/19671c209c.js" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+    <!-- =====BOX ICONS===== -->
+    <!-- <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'> -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header  bg-light">
+        <nav class="nav bd-grid roboto-thin">
+            <div>
+                <img class="logo" src="./png/logo-gradient.png" alt="logo">
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link ">HOME</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">ABOUT</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">SKILLS</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">EXPERIENCES</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">ACHIEVEMENTS</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Quynh</span></h1>
+
+                <a href="#" class="button roboto-thin">RESUME</a>
+            </div>
+
+            <div class="home__social">
+                <a href="https://www.linkedin.com/in/quinmeh/" class="home__social-icon"><i
+                        class='bx bxl-linkedin'></i></a>
+                <a href="https://www.facebook.com/quin.kakaka" class="home__social-icon"><i
+                        class='bx bxl-facebook'></i></a>
+                <a href="mailto:anniequynh2685@gmail.com" class="home__social-icon"><i class='bx bxl-gmail'></i></i></a>
+
+            </div>
+
+            <div class="home__img">
+                <!-- <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"> -->
+                <img src="./png/Untitled design (4).png" alt="profile">
+                <mask id="mask0" mask-type="alpha">
+                    <path
+                        d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                </mask>
+                <g mask="url(#mask0)">
+                    <path
+                        d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                    <image class="home__blob-img" x="50" y="60" href="assets/img/perfil.png" />
+                </g>
+                </svg>
+            </div>
+        </section>
+        <hr>
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="./png/hihiii.jpg" alt="profile">
+                </div>
+
+                <div>
+                    <h2 class="about__subtitle roboto-thin ">I'am Quynh</h2>
+                    <p class="about__text roboto-thin">As a sophomore at UC Davis, majoring in Computer Science with a
+                        minor in
+                        Technology Management, I've discovered a passion for blending technology with business,
+                        especially in the realm of AI. My coursework, from data structures to marketing for tech
+                        enterprises, has given me a solid technical and managerial foundation. <br>
+                        <br>
+                        Outside the classroom, I find joy in stress baking, archery, and boxing—activities that keep me
+                        grounded and energized. I’m also a bit of a linguist, with a knack for picking up new languages
+                        and instruments; I play five instruments and speak five languages. My goal is to dive deeper
+                        into product management, where I can merge my love for tech and business, focusing on AI-driven
+                        projects that make a real-world impact.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SKILLS ===== -->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__container bd-grid ">
+
+                <div>
+                    <h2 class="skills__subtitle">Hard Skills</h2>
+                    <!-- <p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id -->
+                    <!-- vero amet, alias architecto consectetur error eum eaque sit.</p> -->
+
+                    <div class="skills__data roboto-thin">
+                        <div class="skills__names">
+                            <i class='bx bxl-html5 skills__icon'></i>
+                            <span class="skills__name">HTML5</span>
+                        </div>
+                        <div class="skills__bar skills__html">
+
+                        </div>
+                        <div>
+                            <!-- <span class="skills__percentage">95%</span> -->
+                        </div>
+                    </div>
+                    <div class="skills__data roboto-thin">
+                        <div class="skills__names">
+                            <i class='bx bxl-css3 skills__icon'></i>
+                            <span class="skills__name">CSS3</span>
+                        </div>
+                        <div class="skills__bar skills__css">
+
+                        </div>
+                        <div>
+                            <!-- <span class="skills__percentage">75%</span> -->
+                        </div>
+                    </div>
+                    <div class="skills__data roboto-thin">
+                        <div class="skills__names">
+                            <i class='bx bxl-javascript skills__icon'></i>
+                            <span class="skills__name">JAVASCRIPT</span>
+                        </div>
+                        <div class="skills__bar skills__js">
+
+                        </div>
+                        <div>
+                            <!-- <span class="skills__percentage">65%</span> -->
+                        </div>
+                    </div>
+                    <div class="skills__data roboto-thin">
+                        <div class="skills__names">
+                            <i class='bx bxl-figma skills__icon'></i>
+                            <span class="skills__name">UX/UI</span>
+                        </div>
+                        <div class="skills__bar skills__ux">
+
+                        </div>
+                        <div>
+                            <!-- <span class="skills__percentage">85%</span> -->
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- <div>
+                    <img src="./png/esearch.jpeg" alt="" class="skills__img">
+                </div> -->
+                <div>
+                    <h2 class="skills__subtitle2">hi</h2>
+                    <!-- <br> -->
+
+                    <div class="skills__data roboto-thin">
+                        <div class="skills__names">
+                            <i class='bx bxl-python skills__icon'></i>
+                            <span class="skills__name">PYTHON</span>
+                        </div>
+                        <div class="skills__bar skills__python">
+
+                        </div>
+                        <div>
+                            <!-- <span class="skills__percentage">65%</span> -->
+                        </div>
+                    </div>
+                    <div class="skills__data roboto-thin">
+                        <div class="skills__names">
+                            <i class='bx bxl-c-plus-plus skills__icon'></i>
+                            <span class="skills__name">C++</span>
+                        </div>
+                        <div class="skills__bar skills__js">
+
+                        </div>
+                        <div>
+                            <!-- <span class="skills__percentage">65%</span> -->
+                        </div>
+                    </div>
+                    <div class="skills__data roboto-thin">
+                        <div class="skills__names">
+                            <i class='bx bxl-javascript skills__icon'></i>
+                            <span class="skills__name">C</span>
+                        </div>
+                        <div class="skills__bar skills__c">
+
+                        </div>
+                        <div>
+                            <!-- <span class="skills__percentage">65%</span> -->
+                        </div>
+                    </div>
+                    <div class="skills__data roboto-thin">
+                        <div class="skills__names">
+                            <i class='bx bxl-javascript skills__icon'></i>
+                            <span class="skills__name">R</span>
+                        </div>
+                        <div class="skills__bar skills__r">
+
+                        </div>
+                        <div>
+                            <!-- <span class="skills__percentage">65%</span> -->
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h2 class="skills__subtitle2">hi</h2>
+                    <!-- <br> -->
+
+                    <div class="skills__data roboto-thin">
+                        <div class="skills__names">
+                            <i class='bx bx-target-lock skills__icon'></i>
+                            <span class="skills__name">DISCIPLINE</span>
+                        </div>
+                        <div class="skills__bar skills__dis">
+
+                        </div>
+                        <div>
+                            <!-- <span class="skills__percentage">65%</span> -->
+                        </div>
+                    </div>
+                    <div class="skills__data roboto-thin">
+                        <div class="skills__names">
+                            <i class='bx bx-bulb skills__icon'></i>
+                            <span class="skills__name">INITIATIVE</span>
+                        </div>
+                        <div class="skills__bar skills__ini">
+
+                        </div>
+                        <div>
+                            <!-- <span class="skills__percentage">65%</span> -->
+                        </div>
+                    </div>
+                    <div class="skills__data roboto-thin">
+                        <div class="skills__names">
+                            <i class='bx bx-shape-polygon skills__icon'></i>
+                            <span class="skills__name">FLEXIBILITY</span>
+                        </div>
+                        <div class="skills__bar skills__flex">
+
+                        </div>
+                        <div>
+                            <!-- <span class="skills__percentage">65%</span> -->
+                        </div>
+                    </div>
+                    <div class="skills__data roboto-thin">
+                        <div class="skills__names">
+                            <i class='bx bxs-category-alt skills__icon'></i>
+                            <span class="skills__name">ORGANIZATION</span>
+                        </div>
+                        <div class="skills__bar skills__or">
+
+                        </div>
+                        <div>
+                            <!-- <span class="skills__percentage">65%</span> -->
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h2 class="skills__subtitle3">Soft Skills</h2>
+                    <!-- <br> -->
+
+                    <div class="skills__data roboto-thin">
+                        <div class="skills__names">
+                            <i class='bx bx-message-dots skills__icon'></i>
+                            <span class="skills__name">COMMUNICATION</span>
+                        </div>
+                        <div class="skills__bar skills__com">
+
+                        </div>
+                        <div>
+                            <!-- <span class="skills__percentage">65%</span> -->
+                        </div>
+                    </div>
+                    <div class="skills__data roboto-thin">
+                        <div class="skills__names">
+                            <i class='bx bxs-brain skills__icon'></i>
+                            <span class="skills__name">STRATEGIC THINKING</span>
+                        </div>
+                        <div class="skills__bar skills__stra">
+
+                        </div>
+                        <div>
+                            <!-- <span class="skills__percentage">65%</span> -->
+                        </div>
+                    </div>
+                    <div class="skills__data roboto-thin">
+                        <div class="skills__names">
+                            <i class='bx bx-show skills__icon'></i>
+                            <span class="skills__name">DETAILED-ORIENTED</span>
+                        </div>
+                        <div class="skills__bar skills__de">
+
+                        </div>
+                        <div>
+                            <!-- <span class="skills__percentage">65%</span> -->
+                        </div>
+                    </div>
+                    <div class="skills__data roboto-thin">
+                        <div class="skills__names">
+                            <i class='bx bx-calendar skills__icon'></i>
+                            <span class="skills__name">TIME MANAGEMENT</span>
+                        </div>
+                        <div class="skills__bar skills__time">
+
+                        </div>
+                        <div>
+                            <!-- <span class="skills__percentage">65%</span> -->
+                        </div>
+                    </div>
+                </div>
+
+
+
+        </section>
+
+        <!--===== EXPERIENCES =====-->
+        <section class="work section" id="work">
+            <h2 class="section-title">Experiences</h2>
+            <ul class="work-ul roboto-thin">
+                <li style="--accent-color:#454447">
+                    <div class="date roboto-thin">2024</div>
+                    <div class="title roboto-thin"><i>Mobalytics</i></div>
+                    <div class="descr"> <a href="" class="work__img">
+                            <img src="./png/mobalytics-analytics-for-competitive-gamers.jpg" alt="">
+                            <h5 class="work__text"><b>Market Research and Analytics</b></h5>
+                            <!-- <h6 class="work__text">Mobalytics</h6> -->
+                            <p class="work__text roboto-thin">Aug 2024 - Present</p>
+                        </a></div>
+                </li>
+                <li style="--accent-color:#646873">
+                    <div class="date" roboto-thin>2024</div>
+                    <div class="title roboto-thin"><i>VNG Corporation</i></div>
+                    <div class="descr"><a href="" class="work__img">
+                            <img src="./png/vng.jpg" alt="">
+                            <h5 class="work__text"><b>Product Management Intern</b></h5>
+                            <!-- <h6 class="work__text">VNG Corportation</h6> -->
+                            <p class="work__text roboto-thin">Jun 2024 - Present</p>
+
+                        </a></div>
+                </li>
+                <li style="--accent-color:#bc9ea8">
+                    <div class="date">2024</div>
+                    <div class="title"><i>ESEARCH | Digtital Agriculture Lab</i></div>
+                    <div class="descr"> <a
+                            href="https://drive.google.com/file/d/1oHEzy73h9hUL8FmW0-ndznH7R_i1v-76/view?usp=sharing"
+                            class="work__img">
+                            <img src="./png/esearch.jpeg" alt="">
+                            <h5 class="work__text"><b>Undergraduate Researcher</b></h5>
+                            <!-- <h6 class="work__text">ESEARCH | Digtital Agriculture Lab</h6> -->
+                            <p class="work__text">April 2024 - Jun 2024</p>
+                        </a></div>
+                </li>
+                <li style="--accent-color:#708c8c">
+                    <div class="date">2024</div>
+                    <div class="title"><i>AISC @ UC Davis</i></div>
+                    <div class="descr"><a
+                            href="https://medium.com/@humansforai/cultivating-trust-the-ethical-landscape-of-ai-integration-in-agriculture-90aff9eec054"
+                            class="work__img">
+                            <img src="./png/AISC.jpeg" alt="">
+                            <h5 class="work__text"><b>Technical Research Writer</b></h5>
+                            <!-- <h6 class="work__text">AISC @ UC Davis</h6> -->
+                            <p class="work__text">April 2024 - Jun 2024</p>
+                        </a>
+                    </div>
+                </li>
+                <li style="--accent-color:#13374e">
+                    <div class="date">2023</div>
+                    <div class="title"><i>UC Davis</i></div>
+                    <div class="descr"><a href="" class="work__img">
+                            <img src="./png/pls 21.jpg" alt="">
+                            <h5 class="work__text"><b>PLS 21 Teaching Assistant Intern</b></h5>
+                            <!-- <h6 class="work__text">UC Davis</h6> -->
+                            <p class="work__text">Dec 2023 - April 2024</p>
+                        </a></div>
+                </li>
+                <li style="--accent-color:#988d87">
+                    <div class="date">2023</div>
+                    <div class="title"><i>UC Davis</i></div>
+                    <div class="descr"><a href="" class="work__img">
+                            <img src="./png/calteach.jpg" alt="">
+                            <h5 class="work__text"><b>CALTEACH Math Intern</b></h5>
+                            <!-- <h6 class="work__text">UC Davis</h6> -->
+                            <p class="work__text">Sep 2023 - Dec 2023</p>
+                        </a></div>
+                </li>
+            </ul>
+            <div class="credits"><a target="_blank"
+                    href="https://www.freepik.com/free-vector/infographic-template-with-yearly-info_1252895.htm"></a>
+            </div>
+
+        </section>
+
+        <!--===== ACHIEVEMNTS =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Achievements</h2>
+
+            <div class="work__container bd-grid roboto-thin">
+                <a href="" class="work__img">
+                    <img src="./png/esearch 2-1.png" alt="">
+                    <h5 class="work__text"><b>ESEARCH - Research Recognition</b></h5>
+                    <h6 class="work__text">UC Davis - College of Engineering </h6>
+                    <p class="work__text">Jun 2024</p>
+                </a>
+                <a href="" class="work__img">
+                    <img src="./png/prod con.jpeg" alt="">
+                    <h5 class="work__text"><b>Finalist (Top 5)</b></h5>
+                    <h6 class="work__text">Davis Product Convention 2024</h6>
+                    <p class="work__text">April 2024</p>
+                </a>
+                <a href="" class="work__img">
+                    <img src="./png/IMG_6016.jpg" alt="">
+                    <h5 class="work__text"><b>Character Education in Action Award</b></h5>
+                    <h6 class="work__text">Canadian International School Vietnam</h6>
+                    <p class="work__text">Jun 2023</p>
+                </a>
+                <a href="" class="work__img">
+                    <img src="./png/imyc.png" alt="">
+                    <h5 class="work__text"><b>Finalist</b></h5>
+                    <h6 class="work__text">International Youth Math Competition 2022</h6>
+                    <p class="work__text">Nov 2022</p>
+
+                </a>
+                <a href="" class="work__img">
+                    <img src="./png/uber.png" alt="">
+
+                    <h5 class="work__text"><b>Global Finalist/ South, East, Southeast Asia Regional Winner</b></h5>
+                    <h6 class="work__text">Uber Global Hackathon 2022 - UX and Product Development</h6>
+                    <p class="work__text">Sep 2022</p>
+                </a>
+
+
+                <a href="" class="work__img">
+                    <img src="./png/tiger.png" alt="">
+                    <h5 class="work__text"><b>Competitor</b></h5>
+                    <h6 class="work__text">Tiger Global Case Competition 2021</h6>
+                    <p class="work__text">Aug 2021</p>
+
+
+
+
+
+                </a>
+            </div>
+        </section>
+        <!--===== FOOTER =====-->
+        <footer class="footer roboto-thin">
+            <p class="footer__title">LET'S CONNECT</p>
+            <div class="footer__social">
+
+                <a href="https://www.linkedin.com/in/quinmeh/" class="footer__icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.facebook.com/quin.kakaka" class="footer__icon"><i class='bx bxl-facebook'></i></a>
+                <a href="mailto:anniequynh2685@gmail.com" class="footer__icon"><i class='bx bxl-gmail'></i></i></a>
+
+            </div>
+            <p class="footer__copy roboto-thin">&#169; 2024 Quynh Tran. All rigths reserved</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+</body>
+
+</html>
