@@ -258,7 +258,9 @@ img {
   right: 0;
   top: 20px;
   bottom: 0;
+  /* width: 260px; */
   width: 55%;
+
 }
 .home__blob {
   fill: var(--first-color);
@@ -797,4 +799,4 @@ ul li .descr::before {
 }
 .credits a {
   color: var(--color);
-} */
+} 
